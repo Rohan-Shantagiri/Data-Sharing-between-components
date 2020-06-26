@@ -1,0 +1,6 @@
+<div class="container">
+    Data Passing From child to Parent Using @Output and EventEmitter
+    <h2>Parent</h2>
+    Message: {{message}}
+    <app-child3 (messageEvent)="receiveMessage($event)"></app-child3>
+</div>
